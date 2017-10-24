@@ -12,7 +12,7 @@ New-ADUser -DisplayName "Alumno Microsoft PowerShell" `
 -Surname "Microsoft PowerShell" `
 -Name "Alumno Microsoft PowerShell" `
 -SamAccountName "AMicroPower" `
--UserPrincipalName:"AMicroPower@PROFE.LOCAL" `
+-UserPrincipalName:"AMicroPower@DOM12.LOCAL" `
 -ChangePasswordAtLogon $false `
 -PasswordNeverExpires $true ` #Sólo a efectos de laboratorio, el campo debe ser false
 -AccountPassword (ConvertTo-SecureString -AsPlainText -String "Minisdef01" -Force) `
